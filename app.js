@@ -14,9 +14,9 @@ app.get("/", (req, res) => {
   res.send("Welcome to Recipe App");
 });
 
-// Songs ROUTES
-// const songsController = require("./controllers/songController.js");
-// app.use("/songs", songsController);
+// Recipes ROUTES
+// const recipesController = require("./controllers/recipesController.js");
+// app.use("/recipes", recipesController);
 
 // 404 PAGE
 app.get("*", (req, res) => {
