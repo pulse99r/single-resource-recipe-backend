@@ -15,8 +15,10 @@ app.get("/", (req, res) => {
 });
 
 // Recipes ROUTES
-// const recipesController = require("./controllers/recipesController.js");
-// app.use("/recipes", recipesController);
+const recipesController = require("./controllers/recipesController.js");
+app.use("/recipes", recipesController);
+
+
 
 // 404 PAGE
 app.get("*", (req, res) => {
