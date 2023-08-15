@@ -7,5 +7,5 @@ const PORT = process.env.PORT;
 
 // LISTEN
 app.listen(PORT, () => {
-  console.log(`Tuner Server is Listening on port ${PORT}`);
+  console.log(`Recipe Backend Server is Listening on port ${PORT}`);
 });
